@@ -1,0 +1,49 @@
+
+/* About Page Styles */
+.about-container {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-container h1 {
+  font-size: 2.5rem;
+  color: #262626;
+  margin-bottom: 1rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+  color: rgb(176, 57, 232);
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1rem;
+  color: #333;
+}
+
+.team-member {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.team-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #fff;
+}
+
+.accent-div {
+  height: 50px;
+  background-color: rgb(176, 57, 232);
+}

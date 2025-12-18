@@ -1,0 +1,41 @@
+/* src/assets/styles/navBar.css */
+.navbar-brand {
+  font-family: "Sedan", serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(176, 57, 232);
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-color: rgb(176, 57, 232);
+}
+
+.btn-primary {
+  background-color: rgb(176, 57, 232);
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #a034b5;
+}
+
+.dropdown-menu {
+  background-color: #262626;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.dropdown-item {
+  color: whitesmoke;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: rgb(176, 57, 232);
+  color: #262626;
+}

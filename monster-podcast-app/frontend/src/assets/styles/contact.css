@@ -1,0 +1,57 @@
+/* Contact Page Styles */
+.contact-container {
+  padding: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container h1 {
+  font-size: 2.5rem;
+  color: #262626;
+  margin-bottom: 1rem;
+  text-align: center; /* Center the form title */
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-control {
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+}
+
+/* Center the button */
+.button-wrapper {
+  display: flex;
+  justify-content: center; /* Center the button horizontally */
+  margin-top: 1rem; /* Add space above the button */
+}
+
+.btn-primary {
+  background-color: rgb(176, 57, 232);
+  color: #262626;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  display: block; /* Ensure the button is treated as a block element */
+  margin: 0 auto; /* Center the button within its parent */
+}
+
+.btn-primary:hover {
+  background-color: rgb(156, 47, 212);
+}
+
+.accent-div{
+  background-color:rgb(176, 57, 232);
+  text-decoration:hidden;
+  margin:0;
+  padding:2px;
+  height: 5px;
+}

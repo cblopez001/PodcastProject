@@ -1,0 +1,105 @@
+/* CommunityPage.css */
+.community-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .community-section {
+    margin: 20px 0;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .discord-section {
+    border-top: 5px solid #5865f2; /* Discord branding color */
+  }
+  
+  .discord-button {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #5865f2;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .discord-button:hover {
+    background-color: #4752c4;
+  }
+  
+  .social-media-section {
+    border-top: 5px solid #e4405f; /* Instagram branding color */
+  }
+  
+  .social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+  }
+  
+  .social-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+  }
+  
+  .social-button:hover {
+    opacity: 0.8;
+  }
+  
+  .instagram {
+    background-color: #e4405f;
+  }
+  
+  .facebook {
+    background-color: #3b5998;
+  }
+  
+  .youtube {
+    background-color: #ff0000;
+  }
+  
+  .icon {
+    margin-right: 8px;
+  }
+  
+/* Footer */
+footer {
+  background-color: #262626;
+  color: #fff;
+  padding: 2rem 0;
+  text-align: center;
+  margin-top: auto;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px; /* Space out footer links */
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-copyright p{
+  color:#f9f9f9;
+}

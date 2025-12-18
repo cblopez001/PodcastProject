@@ -1,0 +1,151 @@
+
+*,.sedan-regular {
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .sedan-regular-italic {
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .jacquard-24-regular {
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  body{
+  background-color: whitesmoke;
+  height: 70vh;
+  }
+  
+  /*NavBar and Accent Section*/
+  .navbar-nav{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: end;
+  width: 100%;
+  }
+  
+  .accent-div{
+  background-color:rgb(176, 57, 232);
+  text-decoration:hidden;
+  margin:0;
+  padding:2px;
+  height: 5px;
+}
+  
+  
+  /*Page Header Section */
+  
+  .title-container{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px;
+  }
+  
+  .title-container h2{
+  font-size: 100px;;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 50px;
+  margin-bottom:5%;
+  }
+  
+/* Filter Section */ 
+
+.filter-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  background-color: #262626;
+  }
+
+.filter-wrapper {
+display: flex; 
+flex-wrap: wrap; 
+list-style-type: none;
+}
+
+.filter-wrapper li { 
+  margin: 0 1.5rem; 
+  padding-top: 1rem; 
+}
+
+.filter-wrapper li a { 
+text-decoration: none; 
+color: #262626;
+padding: 0.5rem 1rem;
+background-color: rgb(176, 57, 232); 
+border-radius: 5px; 
+font-weight: bold;
+}
+
+.filter-wrapper li a:hover { 
+  background-color: rgb(176, 57, 232);
+  color: whitesmoke; 
+  } 
+
+.search {
+  position: relative;
+  display: flex; 
+  flex-direction: row; 
+  flex-wrap: wrap; 
+  align-items: center; 
+} 
+.search button { 
+  position: absolute; 
+  top: 0; 
+  right: 0; 
+  padding: 0.40rem;
+  height: 100%; 
+  border: none; 
+  background-color: rgb(176, 57, 232);
+  border-radius: 0px 5px 5px 0px;
+  cursor: pointer; 
+  outline: none; 
+  color: #262626;
+  } 
+
+.search form { 
+  display: flex;
+  flex-direction: row; 
+  } 
+
+.search input { border: 1px solid #262626; 
+  outline: none; 
+  border-radius: 5px; 
+}
+
+  
+  /*Episode Library Section */
+  
+  .library-container{
+  margin: 10px;
+  padding: 10px;
+  
+  }
+  
+  
+  /*Footer Section*/
+  
+  footer{
+  background-color: #262626;
+  color: #fff;
+  }
+  
+  footer  a{
+  color: #fff;
+  text-decoration: none;
+  }
