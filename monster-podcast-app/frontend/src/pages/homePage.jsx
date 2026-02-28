@@ -2,12 +2,13 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../assets/styles/home.css'; // Import the CSS file for this page
-import Footer from '../components/Footer'; // Import the Footer component
-import Navbar from '../components/Navbar';
+import Footer from '../components/footer'; // Import the Footer component
+import Navbar from '../components/navBar';
 
 /* Import Font Awesome icons */
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faStar } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faStar } from "@fortawesome/free-solid-svg-icons";
+
 
 /* Import images */
 import episodeUpdateDemo from '../assets/images/landingPageImages/episodeUpdateDemo.png';

@@ -9,7 +9,7 @@ import ContactPage from './pages/contactPage.jsx';
 import EpisodePage from './pages/episodePage.jsx';
 import YouTubePage from './pages/youtubePage.jsx';
 import CommunityPage from './pages/communitypage.jsx'; // Import the CommunityPage component
-import Navbar from './components/Navbar'; // Assuming you have a Navbar component
+import Navbar from './components/navBar.jsx'; // Assuming you have a Navbar component
 
 function App() {
   return (
